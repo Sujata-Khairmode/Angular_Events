@@ -1,0 +1,32 @@
+<h2 ngNonBindable>String Interpolation -{{}}</h2>
+<p>using string interpolation we can transper data from ts to html</p>
+<p>interpolation work on only string content</p>
+<h3>{{title}}</h3>
+
+<h2>*********************************************************************</h2>
+
+<h2>property binding-[]</h2>
+<p>using property binding we can transfer attribute value from ts to hnml tag</p>
+
+<input type="text" [value]="username" name="username">
+<img [src]="imgpath" alt="">
+
+
+<h2>*********************************************************************</h2>
+
+
+<h2>Event binding-()</h2>
+<p>event binding is used for calling function of ts</p>
+<button (click)="clickme()">click</button>
+
+
+<h2>*********************************************************************</h2>
+
+
+
+<h2>two way data binding-[()]</h2>
+<p>two way data binding is used for transfering data from ts to html as well as html to ts</p>
+<input type="text" name="num1"[(ngModel)]="num1">
+<p>{{num1}}</p>
+
+<h2>*********************************************************************</h2>
